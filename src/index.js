@@ -5,7 +5,7 @@ import { app } from "./app.js";
 
 // 1) Database Connected
 dotenv.config({
-    path: './env'
+    path: './.env'
 })
 
 connectDB()
